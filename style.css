@@ -1,0 +1,48 @@
+*{
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+}
+body{
+          background-image: url(./background\ Image.avif);
+          color: #fff;
+}
+main{
+          margin-top: 200px;
+}
+.up{
+          text-align: center;
+          margin-top: 140px;
+}
+.up p{
+          text-transform: capitalize;
+          margin-top: 40px;
+}
+.circles-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+}
+.day,
+.hour,
+.min,
+.sec{
+          margin-top: 50px;
+          margin-left: 20px;
+          padding: 10px;
+          border: 5px solid #212529;
+          color: #fff;
+          text-transform: capitalize;
+          border-radius: 20px;
+}
+footer{
+          margin-top: 260px;
+          text-align: center;
+}
+footer p{
+          margin-top: 30px;
+}
+footer .social{
+          margin-top:40px;
+}
